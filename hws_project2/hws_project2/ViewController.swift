@@ -37,6 +37,9 @@ class ViewController: UIViewController {
 
         askQuestion()
         
+        let segmentBarItem = UIBarButtonItem(customView: segmentedControl)
+        navigationItem.rightBarButtonItem = segmentBarItem
+        
     }
     
     // NIL = there is no UI action for this
